@@ -29,29 +29,29 @@ But in production keep this PEPPER extremely secret!
 
 Example .env file content:
 
-PG_HOST=127.0.0.1  
-PG_DB=db_name  
-PG_DB_TEST=test_db_name  
-PG_USER=full_stack_user  
-PG_PWD=db password  
-ENV=dev  
-BCRYPT_PASSWORD=password  
-SALT_ROUNDS=10  
-PEPPER=tere_tali_kas_see_on_nali  
-TOKEN_SECRET=kas_siit_saab_putru  
+PG_HOST=127.0.0.1  <br/>
+PG_DB=db_name  <br/>
+PG_DB_TEST=test_db_name  <br/>
+PG_USER=full_stack_user  <br/>
+PG_PWD=db password  <br/>
+ENV=dev  <br/>
+BCRYPT_PASSWORD=password  <br/>
+SALT_ROUNDS=10  <br/>
+PEPPER=tere_tali_kas_see_on_nali  <br/>
+TOKEN_SECRET=kas_siit_saab_putru  <br/>
 
 Take a look at package.json file for all available commands.
 
 ## Express endpoints
 
-'/users/auth'  
-'/users/:id'  
-'/users/:id/current-order'  
-'/users/:id/completed-orders'  
-'/users'  
-'/users'  
-'/products/category/:category'  
-'/products/top-5'  
-'/products'  
-'/products/:id'  
-'/products'  
+'/users/auth'  <br/>
+'/users/:id'  <br/>
+'/users/:id/current-order'  <br/>
+'/users/:id/completed-orders'  <br/>
+'/users'  <br/>
+'/users'  <br/>
+'/products/category/:category'  <br/>
+'/products/top-5'  <br/>
+'/products'  <br/>
+'/products/:id'  <br/>
+'/products'  <br/>
