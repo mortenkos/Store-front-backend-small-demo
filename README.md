@@ -44,14 +44,30 @@ Take a look at package.json file for all available commands.
 
 ## Express endpoints
 
-'/users/auth'  <br/>
-'/users/:id'  <br/>
-'/users/:id/current-order'  <br/>
-'/users/:id/completed-orders'  <br/>
-'/users'  <br/>
-'/users'  <br/>
-'/products/category/:category'  <br/>
-'/products/top-5'  <br/>
-'/products'  <br/>
-'/products/:id'  <br/>
-'/products'  <br/>
+GET '/users/auth'  returns auth token [token required]<br/>
+GET '/users/:id'  return user with id [token required]<br/>
+GET '/users/:id/current-order'  returns user active order [token required]<br/>
+GET '/users/:id/completed-orders'  returns user completed orders [token required]<br/>
+GET '/users'  returns all users [token required]<br/>
+POST '/users'  use request header body to make new user [token required]<br/>
+body raw json example: <br/>
+```
+{
+    "first_name": "morten",
+    "last_name": "kose",
+    "password": "vitamiin"
+}
+```
+GET '/products/category/:category'  <br/>
+GET '/products/top-5'  <br/>
+GET '/products'  <br/>
+GET '/products/:id'  <br/>
+POST '/products'  use request header body to make new user [token required]<br/>
+body raw json example: <br/>
+```
+{
+    "name": "tuuuus",
+    "price": 5,
+    "category": "toode"
+}
+```
