@@ -6,7 +6,7 @@ This server runs on localhost port 3000 and my PostgresSQL runs on localhost por
 ## Getting Started
 After you cloned this repo don't forget to: 'npm install'
 
-Before DB migration make sure that you have crated 2 DB's, 1 for development and another for test cases(continue reading in DB Creation and Migrations section).
+Before DB migration make sure that you have created 2 DB's, 1 for development and another for test cases(continue reading in DB Creation and Migrations section).
 
 To migrate db schema: 'npm run migrate'
 
@@ -23,8 +23,8 @@ Create 2 Postgres databases 1 for development and another for test.
 
 Add your DB values like db name, user etc. into .env file and into database.json file
 
-Note: You need to create an .env file if it doesn't exist.
-Note: For testin set PEPPER in .env: PEPPER=tere_tali_kas_see_on_nali otherwise some of the tests may fail. 
+Note: You need to create an .env file if it doesn't exist.  <br/>
+Note: For testin set PEPPER in .env: PEPPER=tere_tali_kas_see_on_nali otherwise some of the tests may fail. <br/>
 But in production keep this PEPPER extremely secret!
 
 Example .env file content:
